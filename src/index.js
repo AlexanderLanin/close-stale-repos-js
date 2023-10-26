@@ -1,6 +1,8 @@
+#!/usr/bin/env node
+
 /**
  * The entrypoint for the action.
  */
-const { run } = require('./main')
+import { run } from './main.js'
 
 run()
